@@ -57,6 +57,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "status-approved": {
+          DEFAULT: "hsl(var(--status-approved))",
+          foreground: "hsl(var(--status-approved-foreground))",
+        },
+        "status-rejected": {
+          DEFAULT: "hsl(var(--status-rejected))",
+          foreground: "hsl(var(--status-rejected-foreground))",
+        },
+        "status-pending": {
+          DEFAULT: "hsl(var(--status-pending))",
+          foreground: "hsl(var(--status-pending-foreground))",
+        },
+        "status-skipped": {
+          DEFAULT: "hsl(var(--status-skipped))",
+          foreground: "hsl(var(--status-skipped-foreground))",
+        },
+        "priority-critical": "hsl(var(--priority-critical))",
+        "priority-high": "hsl(var(--priority-high))",
+        "priority-medium": "hsl(var(--priority-medium))",
+        "priority-low": "hsl(var(--priority-low))",
       },
       borderRadius: {
         lg: "var(--radius)",
